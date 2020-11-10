@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:padding="15dp" >
+    <Button
+        android:id="@+id/btn_1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="按钮1"
+        android:textSize="20sp"
+        android:textColor="#fFffff"
+        android:background="#FF0000"
+        />
+
+    <Button
+        android:id="@+id/btn_2"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/btn_1"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg_btn2"
+        android:text="按钮2"
+        android:textColor="#ffffff"
+        android:textSize="20sp" />
+    <Button
+        android:id="@+id/btn_3"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/btn_2"
+        android:text="按钮3"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:textColor="@drawable/bg_btn3"
+        android:background="#FF0000"
+        />
+    <Button
+        android:id="@+id/btn_4"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="按钮4"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:textColor="#fFffff"
+        android:background="@drawable/bg_btn4"
+        android:layout_below="@id/btn_3"
+        android:onClick="showToast"
+        />
+    <TextView
+        android:id="@+id/tv_1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:text="文字1"
+        android:layout_below="@id/btn_4"
+        android:layout_marginTop="40dp"
+        android:background="#ffad33"
+        android:gravity="center">
+
+    </TextView>
+</RelativeLayout>
