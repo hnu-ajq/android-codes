@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <View
+        android:id="@+id/register_view1"
+        android:layout_marginLeft="60dp"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:background="@drawable/hehe"
+
+    />
+
+<RelativeLayout
+    android:id="@+id/register_rlout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_below="@id/register_view1"
+    android:padding="20dp"
+    >
+    <EditText
+        android:id="@+id/register_et1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="   用户名"
+        android:background="@drawable/btn_1"
+        />
+    <EditText
+        android:id="@+id/register_et2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/btn_1"
+        android:layout_below="@id/register_et1"
+        android:layout_marginTop="20dp"
+        android:hint="   密码"
+        android:inputType="textPassword"
+
+        />
+    <EditText
+        android:id="@+id/register_et3"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/btn_1"
+        android:layout_below="@id/register_et2"
+        android:layout_marginTop="20dp"
+        android:hint="   确认密码"
+        android:inputType="textPassword"
+
+        />
+
+    <Button
+        android:id="@+id/register_button"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/register_et3"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="60dp"
+        android:text="登录"
+        android:background="@drawable/btn_2"
+        android:textSize="20sp" />
+    <Button
+        android:id="@+id/register_backbutton"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/register_et3"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="220dp"
+        android:textSize="20sp"
+        android:background="@drawable/btn_2"
+        android:text="返回" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <View
+        android:id="@+id/check_view1"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:background="@drawable/hehe"
+        android:layout_marginLeft="60dp"
+        />
+
+    <RelativeLayout
+        android:id="@+id/check_rlout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/check_view1"
+        android:padding="20dp"
+        >
+
+        <EditText
+            android:id="@+id/check_result"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/btn_1"
+            android:hint="   检测结果"
+            />
+        <EditText
+            android:id="@+id/check_wifi"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:background="@drawable/btn_1"
+            android:layout_below="@id/check_result"
+            android:layout_marginTop="20dp"
+            android:hint="wifi信息"
+            />
+        <Button
+            android:id="@+id/check_button"
+            android:layout_marginLeft="70dp"
+            android:layout_width="100dp"
+            android:layout_below="@id/check_wifi"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:text="检测"
+            android:textSize="20sp"
+            android:background="@drawable/btn_2"
+            />
+        <Button
+            android:id="@+id/check_backbutton"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/check_wifi"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="220dp"
+            android:textSize="20sp"
+            android:background="@drawable/btn_2"
+            android:text="返回" />
+</RelativeLayout>
+</RelativeLayout>
